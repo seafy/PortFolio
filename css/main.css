@@ -181,6 +181,22 @@ span {
 
 
 /* __________Page projet/projects__________ */
+
+@media screen {
+
+.body-projets{
+                /*CSS animations*/
+                 -webkit-animation: none !important;
+                  -moz-animation: none !important;
+                   -o-animation: none !important;
+                    -ms-animation: none !important;
+                     animation: none !important;
+                      }
+}
+     
+             
+}
+
 .projets-container {
   display: flex;
   flex-direction: column;
@@ -204,100 +220,15 @@ span {
 h1 {
   animation-name: h1;
 }
-.quiver {
-  margin-top: 60em;
-  animation-name: quiver;
-}
 
-.pba {
- animation-name: pba; 
-}
-.atelier72 {
-  margin-top: 52em;
-  animation-name: atelier72;
-}
-.plumber {
- animation-name: plumber; 
-}
-
-
-
-/* Animation */
-
-/* animation partant de gauche */
-@keyframes quiver {
-  from {
-    left: -20%;
-  }
-  to {
-    left: 10%;
-  }
-}
-
-@keyframes atelier72 {
-  from {
-    left: -20%;
-  }
-  to {
-    left: 10%;
-  }
-}
-/* animation partant de droite */
-
-@keyframes pba {
-  from {
-    right: -50%;
-  }
-  to {
-    right: 10%;
-  }
-}
-
-@keyframes plumber {
-  from {
-    right: -50%;
-  }
-  to {
-    right: 10%;
-  }
-}
-
-/* titre h1 */
 
 @keyframes h1 {
-  from {
-    top:  -5em;
-  }
-  to {
-    top: 5px;
-  }
+    from {
+    top:-1em;
 }
-
-
-/*  end animation */
-
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
-	}
+    to {
+    top: 10px;
+}
 }
 
 /* __________end page projets__________ */
