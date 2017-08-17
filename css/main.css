@@ -188,8 +188,7 @@ span {
 }
 
 .projets-container article{
-  width: 500px;
-  /* height: auto; */
+  width: 500px; 
 }
 .projets-container img {
   max-width: 100%;
@@ -206,7 +205,7 @@ h1 {
   animation-name: h1;
 }
 .quiver {
-  margin-top: 160vh;
+  margin-top: 60em;
   animation-name: quiver;
 }
 
@@ -214,7 +213,7 @@ h1 {
  animation-name: pba; 
 }
 .atelier72 {
-  margin-top: 130vh;
+  margin-top: 52em;
   animation-name: atelier72;
 }
 .plumber {
