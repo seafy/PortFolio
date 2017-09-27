@@ -1,0 +1,146 @@
+
+/* Common rules */
+
+#background {
+  background-image: url(../img/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+
+@charset "utf-8";
+body
+{
+      background-color: #1C1D21 !important;
+      /* color: grey */
+      font-family: "Lato", sans-serif;
+    }
+
+/* end common rules */
+
+/* h1 et h3 sur ma page index */
+body h1,h2,h3 {
+  font-family: 'Keania One', cursive;
+}
+
+
+/* ☰ menu */
+span {
+  color: white;
+}
+
+/* mon selfie */
+.moi {
+ display: block;
+ margin : auto;
+}
+
+
+
+/* menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #1bd806;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* end menu */
+
+
+
+
+/* __________Page projet/projects__________ */
+
+@media screen {
+
+.body-projets{
+                /*CSS animations*/
+                 -webkit-animation: none !important;
+                  -moz-animation: none !important;
+                   -o-animation: none !important;
+                    -ms-animation: none !important;
+                     animation: none !important;
+                      }
+}
+     
+             
+}
+
+.projets-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.projets-container article{
+  width: 500px; 
+}
+.projets-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.quiver , .pba , .atelier72 , .plumber , h1{
+  animation-fill-mode: forwards;
+  position: relative;
+  animation-duration: 5s;
+  animation-delay: 0s;
+}
+h1 {
+  animation-name: h1;
+}
+
+
+@keyframes h1 {
+    from {
+    top:-1em;
+}
+    to {
+    top: 10px;
+}
+}
+
+/* __________end page projets__________ */
+
+/* __________page contact__________ */
+
+label {
+  color: white;
+}
+
+/* __________end page contact__________ */
