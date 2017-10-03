@@ -1,9 +1,9 @@
-<!doctype html>
+  <!doctype html>
 <html class="no-js" lang="fr/en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Seafy</title>
+        <title>Vincent Hasquette Portfolio</title>
         <meta name="description" content="PortFolio Seafy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,8 +12,22 @@
          <link rel="icon" type="image/png" href="../view/img/favicon.ico" />
 
         <!-- CSS Files -->
+
+        <!-- boostrap3 -->
+          <!-- Latest compiled and minified CSS -->
+          <link rel="stylesheet" href="../view/css/bootstrap.css" crossorigin="anonymous">
+          <link rel="stylesheet" href="../view/css/bootstrap-theme.css" crossorigin="anonymous">
+
+          <!-- Latest compiled and minified JavaScript -->
+          <script src="../view/js/bootstrap.js" crossorigin="anonymous"></script>
+        <!-- bootstrap 4 -->
+        <link rel="stylesheet" href="../view/css/bootstrap.min.css" crossorigin="anonymous">
         
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+
+
+
+        <!-- css mine -->
         <link rel="stylesheet" href="../view/css/main.css">    
         <!-- End CSS Files -->
 
@@ -21,6 +35,9 @@
          <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
          <link href="https://fonts.googleapis.com/css?family=Keania+One" rel="stylesheet">
         <!-- End font files --> 
+
+       <!-- img modal -->
+       <link rel="stylesheet" type="text/css" href="../view/css/jquery.fancybox.min.css">
         
           <!-- icon -->
          <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

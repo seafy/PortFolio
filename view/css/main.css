@@ -2,12 +2,14 @@
 /* Common rules */
 
 #background {
-  background-image: url(../img/background.jpg);
+  background-image: url(../img/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #464646;
+  max-width: 100%;
+  height: auto;
 }
 
 @charset "utf-8";
@@ -17,6 +19,13 @@ body
       /* color: grey */
       font-family: "Lato", sans-serif;
     }
+
+
+
+#retour-top i{
+  width: 25px;
+}
+
 
 /* end common rules */
 
@@ -79,6 +88,17 @@ span {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+a.closing:hover{
+  cursor: pointer;
+  background-color: green;
+}
+
+#sociaux a:hover{
+  background-color: orange;
+  border-radius: 100px;
+}
+
 /* end menu */
 
 
@@ -134,6 +154,12 @@ h1 {
     top: 10px;
 }
 }
+
+
+.box{
+  height: auto;
+}
+
 
 /* __________end page projets__________ */
 
