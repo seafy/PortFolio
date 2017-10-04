@@ -9,6 +9,7 @@
 		<!-- framework image modal -->
 		<script src="../view/js/jquery.com/jquery-3.2.1.min.js"></script>
 		<script src="../view/js/jquery.fancybox.min.js"></script>
+		<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
 
 		<!-- script menu navside -->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>

@@ -18,28 +18,29 @@ include '../view/partials/sidenav.php';
   <div class="box  text-center text-white mx-auto col-6 col-sm-8  col-md-4 ">
     <div class="">
         <h3>quiver</h3>
-        <a href="img/quiver.png" data-fancybox data-caption="My caption">
+        <a href="img/quiver.png" data-fancybox data-caption="Projet Simplon reproduction du site Quiver.net">
          <img src="img/quiver500x500.png" alt="" class="img-rounded"/>
         </a>
       </div>
 
       <div class="">
         <h3>atelier72</h3>
-        <a href="img/atelier72.png" data-fancybox data-caption="My caption">
+        <a href="img/atelier72.png" data-fancybox data-caption="Projet Simplon en partenariat avec ShowRoomPriver pour fabriquer un site pour des clients , notre clients etait deux femmes qui travaille dans un restaurant sur roubaix nommer 'bar a pate' .">
          <img src="img/atelier72500x500.png" alt="" class="img-rounded"/>
         </a>
       </div>
 
       <div class="">
         <h3>palais des beaux art</h3>
-        <a href="img/pba.png" data-fancybox data-caption="My caption">
+        <a href="img/pba.png" data-fancybox data-caption="reproduction du site palais des beaux arts link:http://www.pba-lille.fr/en .">
          <img src="img/pba500x500.png" alt="" class="img-rounded"/>
         </a>
       </div>
 
       <div class="">
         <h3>plomberie</h3>
-        <a href="img/plomberie.png" data-fancybox data-caption="My caption">
+        <a href="img/plomberie.png" data-fancybox data-caption="Création d'un site Plomberie simple au tout début de formation (soyez 
+          indulgent s'il vous plait ) .">
          <img src="img/plomberie500x500.png" alt="" class="img-rounded"/>
         </a>
     </div>
